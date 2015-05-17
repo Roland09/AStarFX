@@ -17,4 +17,9 @@ Usage:
 + step view: green cells = cells in open set, red cells = cells inclosed set
 
 
+Build:
+
++ create a new JavaFX project
++ copy contents src folder into your source folder
++ compile and launch Main.java
 
