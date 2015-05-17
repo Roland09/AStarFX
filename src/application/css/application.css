@@ -1,0 +1,42 @@
+.start {
+    -fx-border-color: green;
+    -fx-border-width: 3px;
+    -fx-background-color:derive(green,0.9);
+}
+.goal {
+    -fx-border-color: red;
+    -fx-border-width: 3px;
+    -fx-background-color:derive(red,0.9);
+}
+.open {
+    -fx-background-color: rgba(255,0,0,0.1);
+}
+.closed {
+    -fx-background-color: rgba(0,255,0,0.1);
+}
+/* important order: path must be after open and closed because a cell can be both. the last in the css overlaps the previous styles, no matter how you add them to the styleclass list */
+.path {
+    -fx-background-color:derive(dodgerblue,0.9);
+}
+/* important order: traversable must be after path because a cell can be both. the last in the css overlaps the previous styles, no matter how you add them to the styleclass list. traversable overrides path when you paint over a path */
+.traversable {
+    -fx-border-color: dodgerblue;
+    -fx-border-width: 0.7px;
+}
+/* important order: obstacle must be after path because a cell can be both. the last in the css overlaps the previous styles, no matter how you add them to the styleclass list. obstacle overrides path when you paint over a path */
+.obstacle {
+    -fx-border-color: black;
+    -fx-border-width: 0.5px;
+    -fx-background-color:derive(black,0.7);
+    -fx-text-fill: white;
+}
+.label-f {
+	-fx-font-size: 22;
+	-fx-font-weight: bold;
+}
+.label-g {
+	-fx-font-size: 12;
+}
+.label-h {
+	-fx-font-size: 12;
+}

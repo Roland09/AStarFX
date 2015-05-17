@@ -4,6 +4,8 @@ The algorithm instructions are from wikipedia:
 
 http://en.wikipedia.org/wiki/A*_search_algorithm
 
+The application demonstrates the finding of the shortest path from a start to an end point while avoiding obstacles in the path.
+
 Usage:
 
 + drag start and end nodes
