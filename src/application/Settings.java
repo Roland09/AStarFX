@@ -3,7 +3,7 @@ package application;
 public class Settings {
 
 	// fullscreen or windowed mode
-	public static boolean STAGE_FULLSCREEN = true;
+	public static boolean STAGE_FULLSCREEN = false;
 	public static double STAGE_FULLSCREEN_SCALE = 1;
 	
 	public static double SCENE_WIDTH = 1280;
